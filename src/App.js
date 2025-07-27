@@ -1,23 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar";
+import  {Route, Routes, useLocation } from 'react-router-dom';
+import Home from "./pages/Home";
+import Footer from "./components/Footer";
+import AllRooms from "./pages/AllRooms";
+import RoomDetails from "./pages/RoomDetails";
+import MyBookings from "./pages/MyBookings";
+import HotelReg from "./components/HotelReg";
+import Layout from "./pages/hotelOwner/Layout";
+import Dashboard from "./pages/hotelOwner/Dashboard";
+import AddRoom from "./pages/hotelOwner/AddRoom";
+import ListRoom from "./pages/hotelOwner/ListRoom";
+
 
 function App() {
+
+  // for hiding navbar from owner path and visible to all other
+  const isOwnerPath = useLocation().pathname.includes("owner")
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+    { !isOwnerPath && <Navbar/> }
+    {false &&  <HotelReg />}
+
+    <div className="min-h-[70vh]">
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/rooms' element={<AllRooms/>} />
+           <Route path='/rooms/:id' element={<RoomDetails/>} />
+           <Route path='/my-bookings' element={<MyBookings/>} />
+           
+           <Route path='/owner' element={<Layout />}>
+                <Route index element={<Dashboard />}/>
+                <Route path='add-room' element={<AddRoom />}/>
+                <Route path='list-room' element={<ListRoom />}/>
+           </Route>
+        </Routes>
+    </div>  
+
+        {!isOwnerPath && <Footer />}
+
     </div>
   );
 }
