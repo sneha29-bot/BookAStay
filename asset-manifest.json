@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BookAStay/static/css/main.f024cb55.css",
-    "main.js": "/BookAStay/static/js/main.12d62994.js",
+    "main.js": "/BookAStay/static/js/main.b67e4670.js",
     "static/media/regImage.png": "/BookAStay/static/media/regImage.5dd798a76c775372d39a.png",
     "static/media/exclusiveOfferCardImg2.png": "/BookAStay/static/media/exclusiveOfferCardImg2.2e895a7d3c1f44bdb34b.png",
     "static/media/heroImage.png": "/BookAStay/static/media/heroImage.84dcaafe4b0a60752564.png",
@@ -45,10 +45,10 @@
     "static/media/closeIcon.svg": "/BookAStay/static/media/closeIcon.635c117c792b06a6019f8aa2e5087c12.svg",
     "static/media/closeMenu.svg": "/BookAStay/static/media/closeMenu.4c28e626adf95ee21ed033011ae9c3dc.svg",
     "main.f024cb55.css.map": "/BookAStay/static/css/main.f024cb55.css.map",
-    "main.12d62994.js.map": "/BookAStay/static/js/main.12d62994.js.map"
+    "main.b67e4670.js.map": "/BookAStay/static/js/main.b67e4670.js.map"
   },
   "entrypoints": [
     "static/css/main.f024cb55.css",
-    "static/js/main.12d62994.js"
+    "static/js/main.b67e4670.js"
   ]
 }
