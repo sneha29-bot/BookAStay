@@ -1,6 +1,5 @@
 import {React , useEffect, useState} from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import logo from '../assets/Book A stay_edited.avif';
 import {assets} from '../assets/assets';
 import {useClerk, useUser, UserButton} from "@clerk/clerk-react"
 
@@ -108,9 +107,9 @@ const Navbar = () => {
                     </button>
 
                     {navLinks.map((link, i) => (
-                        <a key={i} href={link.path} onClick={() => setIsMenuOpen(false)}>
+                        <Link key={i} href={link.path} onClick={() => setIsMenuOpen(false)}>
                             {link.name}
-                        </a>
+                        </Link>
                     ))}
 
                  { user &&  <button onClick={()=>navigate('/owner')}
