@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BookAStay/static/css/main.f024cb55.css",
-    "main.js": "/BookAStay/static/js/main.b67e4670.js",
+    "main.js": "/BookAStay/static/js/main.56666ffc.js",
     "static/media/regImage.png": "/BookAStay/static/media/regImage.5dd798a76c775372d39a.png",
     "static/media/exclusiveOfferCardImg2.png": "/BookAStay/static/media/exclusiveOfferCardImg2.2e895a7d3c1f44bdb34b.png",
     "static/media/heroImage.png": "/BookAStay/static/media/heroImage.84dcaafe4b0a60752564.png",
@@ -11,7 +11,6 @@
     "static/media/exclusiveOfferCardImg3.png": "/BookAStay/static/media/exclusiveOfferCardImg3.28f31426ff6d1a4cdb2a.png",
     "static/media/roomImg3.png": "/BookAStay/static/media/roomImg3.139a9867696c4f1895c7.png",
     "static/media/exclusiveOfferCardImg1.png": "/BookAStay/static/media/exclusiveOfferCardImg1.80d28eb126faf1609c7b.png",
-    "static/media/Book A stay_edited.avif": "/BookAStay/static/media/Book A stay_edited.1c8fbb988aac0d3d2bd9.avif",
     "static/media/logo.svg": "/BookAStay/static/media/logo.81d45b40094b3e8ad0ce5e041fba1d9a.svg",
     "static/media/uploadArea.svg": "/BookAStay/static/media/uploadArea.8bd23009c8642b15e9e74d53abb5f6f9.svg",
     "static/media/poolIcon.svg": "/BookAStay/static/media/poolIcon.e9b69dff8e97b8a556b83c51a6661fb6.svg",
@@ -45,10 +44,10 @@
     "static/media/closeIcon.svg": "/BookAStay/static/media/closeIcon.635c117c792b06a6019f8aa2e5087c12.svg",
     "static/media/closeMenu.svg": "/BookAStay/static/media/closeMenu.4c28e626adf95ee21ed033011ae9c3dc.svg",
     "main.f024cb55.css.map": "/BookAStay/static/css/main.f024cb55.css.map",
-    "main.b67e4670.js.map": "/BookAStay/static/js/main.b67e4670.js.map"
+    "main.56666ffc.js.map": "/BookAStay/static/js/main.56666ffc.js.map"
   },
   "entrypoints": [
     "static/css/main.f024cb55.css",
-    "static/js/main.b67e4670.js"
+    "static/js/main.56666ffc.js"
   ]
 }
