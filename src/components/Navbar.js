@@ -1,7 +1,7 @@
 import {React , useEffect, useState} from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import {assets} from '../assets/assets';
-//import {useClerk, useUser, UserButton} from "@clerk/clerk-react"
+
 
 const BookIcon = ()=>(
     <svg className="w-4 h-4 text-gray-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" >
@@ -20,8 +20,7 @@ const Navbar = () => {
 
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    // const{openSignIn} = useClerk();
-    // const{user} = useUser();
+   
     const navigate = useNavigate();
     const location = useLocation();
 
@@ -82,12 +81,6 @@ const Navbar = () => {
                 </div>
 
                 {/* Mobile Menu Button */}
-        
-                {/* { user && <UserButton>
-                   <UserButton.MenuItems>
-                        <UserButton.Action label="MyBookings" labelIcon={<BookIcon />} onClick={()=>navigate('/my-bookings')}/>
-                    </UserButton.MenuItems>
-                </UserButton> } */}
 
                  <div className="flex items-center gap-3 md:hidden">
                     <img src={assets.menuIcon} alt='menu' className={`${isScrolled && 'invert'}
